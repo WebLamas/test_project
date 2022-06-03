@@ -1,0 +1,64 @@
+.wlblocks_licence-1(){
+
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px;
+    overflow: hidden;
+
+	&__item-wr{
+		box-sizing: border-box;
+		width: 25%;
+		padding: 15px;
+		margin: 0 auto;
+	}
+	
+	&__item{ 
+		background:#EAEAEA;
+		background-size:cover;
+		border:6px solid #fff;
+		box-shadow:0 7px 12px rgba(0,0,0,0.1);
+		height:360px;
+		width:100%;
+		box-sizing: border-box;
+	} 
+	 
+	@media screen and (max-width: 1279px) {
+		 &__item-wr{ 
+		 }
+		 
+		 &__item{
+			 height:300px;
+		 }
+		 
+	}
+	
+	@media screen and (max-width: 1023px) {
+		 &__item-wr{ 
+			width:33.3333%;
+			max-width: 260px;
+		 }
+	}
+	
+	@media screen and (max-width: 767px) {
+		&__item-wr{  
+			max-width: 180px;
+		}		
+		&__item{
+			 height:200px;
+		 }
+		
+	}
+	
+	@media screen and (max-width: 639px) {
+		&__item-wr{ 
+			width:50%; 
+		}
+	}
+	
+}
+
+
+
+  
+
+

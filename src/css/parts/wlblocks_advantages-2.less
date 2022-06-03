@@ -1,0 +1,75 @@
+.wlblocks_advantages-2(){ 
+	.plates(4,60px,60px);
+	&__item{
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	} 
+	&__ico { 
+		.animated();
+		border-radius: 50%;
+		width: 180px;
+		height: 180px;  
+		margin-bottom: 20px;
+		border:10px solid #EAEAEA;
+		position:relative;
+		transform:scale(0); 
+		&:before{
+			position:absolute;
+			width:80px;
+			height:80px;
+			top:0;
+			bottom:0;
+			left:0;
+			right:0;
+			margin:auto;
+		}
+	} 
+	&__caption{
+		font-weight:600;
+		font-size:20px;
+		line-height: 1.2; 
+	} 
+	&.visible &__ico{
+		transform:scale(1);
+	} 
+	
+
+	 
+	@media screen and (max-width: 1279px) {
+
+		margin: -25px;
+		
+		&__item-wr{
+			padding: 25px;
+		}
+		
+		&__desc{
+			font-size:15px;
+		}
+		 
+	}
+	
+	@media screen and (max-width: 1023px) {
+	
+		&__item-wr {
+			width: 50%;
+			max-width: 290px;
+		}
+	
+	}
+	
+	@media screen and (max-width: 767px) {
+		 
+		
+	}
+	
+	@media screen and (max-width: 639px) {
+		
+		&__item-wr {
+			width: 100%; 
+		}
+	}
+	
+}

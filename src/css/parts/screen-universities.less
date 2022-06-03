@@ -1,0 +1,81 @@
+.screen-universities{
+	background:rgb(255,255,255);
+}
+
+.plate-link-wr{
+}
+
+.plate-link{
+	&__inner{
+		background:rgb(255,225,30);
+		border-radius:15px;
+		box-shadow:0px 7px 15px rgba(0,0,0,0.1);
+	}
+	&__photo{
+		background:url('../images/uni-bg-1.png');
+		background-size:cover;
+	}
+	&__ico{
+		border-radius:50%;
+		background:rgb(26,18,230);
+	}
+	&__ico:before{
+		content:"";
+		display:block;
+		width:56px;
+		height:56px;
+		background:url(../images/sprite.svg) -9px -164px;
+	}
+	&__caption{
+		text-align:center;
+		font-size:22px;
+		color:rgb(26,18,230);
+	}
+	&__caption-2{
+		text-align:center;
+		font-size:24px;
+		color:rgb(26,18,230);
+	}
+	&__desc{
+		text-align:center;
+		font-size:17px;
+		color:rgb(26,18,230);
+	}
+	&_eng &__photo{
+		background:url('../images/uni-bg-2.png');
+	}
+	&_avi &__photo{
+		background:url('../images/uni-bg-3.png');
+	}
+	&_eco &__photo{
+		background:url('../images/uni-bg-4.png');
+	}
+	&_art &__photo{
+		background:url('../images/uni-bg-5.png');
+	}
+	&_env &__photo{
+		background:url('../images/uni-bg-6.png');
+	}
+	&_mar &__photo{
+		background:url('../images/uni-bg-7.png');
+	}
+	&_eng &__ico:before{
+		background:url(../images/sprite.svg) -83px -164px;
+	}
+	&_avi &__ico:before{
+		background:url(../images/sprite.svg) -157px -164px;
+	}
+	&_eco &__ico:before{
+		background:url(../images/sprite.svg) -231px -164px;
+	}
+	&_art &__ico:before{
+		background:url(../images/sprite.svg) -305px -164px;
+	}
+	&_env &__ico:before{
+		background:url(../images/sprite.svg) -379px -164px;
+	}
+	&_mar &__ico:before{
+		background:url(../images/sprite.svg) -453px -164px;
+	}
+}
+

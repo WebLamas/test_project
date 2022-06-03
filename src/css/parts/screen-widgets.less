@@ -1,0 +1,37 @@
+.screen-widgets{
+	background:rgb(245,245,245);
+}
+
+.soc-widget-wr{
+}
+
+.soc-widget{
+	&__header{
+		background:rgb(217,0,0);
+		border-radius:15px 15px 0px 0px;
+		font-family:Roboto Condensed;
+		font-weight:700;
+		font-size:23px;
+		color:rgb(255,255,255);
+	}
+	&__header:before{
+		content:"";
+		display:block;
+		width:46px;
+		height:46px;
+		background:url(../images/sprite.svg) -73px -342px;
+	}
+	&_ins &__header{
+		background:rgb(123,7,158);
+	}
+	&_twi &__header{
+		background:rgb(4,137,219);
+	}
+	&_ins &__header:before{
+		background:url(../images/sprite.svg) -137px -342px;
+	}
+	&_twi &__header:before{
+		background:url(../images/sprite.svg) -9px -342px;
+	}
+}
+
